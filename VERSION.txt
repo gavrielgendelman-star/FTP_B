@@ -1,0 +1,11 @@
+Project: FTP_B
+Base: User's current FTP_A working version (Sprint 1-2)
+Added: Sprint 3 and Sprint 4
+Included features:
+- Sprint 1: Session, SessionManager, FileService, resolveSafePath
+- Sprint 2: login, logout, pwd, cwd, mkd, rmd, dele
+- Sprint 3: PASV, PassiveDataContext, PassiveConnectionInfo
+- Sprint 4: prepareList, prepareRetr, prepareStor, LIST/RETR/STOR over TCP data socket
+Run notes:
+- Server: set FTP_PASSIVE_HOST=127.0.0.1 for local testing
+- Compile: javac *.java
